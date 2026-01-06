@@ -1,0 +1,13 @@
+.navbar {
+  width: 100%;
+  padding: var(--space-md);
+  background-color: var(--color-surface);
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.accent {
+  color: var(--color-primary);
+}
