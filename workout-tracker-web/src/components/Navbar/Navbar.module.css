@@ -6,8 +6,16 @@
   justify-content: center;
   font-size: 1.5rem;
   font-weight: 700;
+  position: relative;
 }
 
 .accent {
   color: var(--color-primary);
+}
+
+.dropdown {
+  position: absolute;
+  left: var(--space-md);
+  display: flex;
+  align-items: center;
 }
