@@ -1,0 +1,44 @@
+.main {
+  padding: 24px;
+}
+
+.firstRow {
+  display: flex;
+  gap: 24px;
+}
+
+.firstRow > * {
+  aspect-ratio: 1 / 1;
+  flex-grow: 1;
+}
+
+.startWorkoutButton {
+  font-size: 20px;
+}
+
+.calendar {
+  background-color: white;
+  border-radius: var(--radius-md);
+}
+
+.textStatistics {
+  text-align: center;
+  margin-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.textStatistics p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.highlightedText {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+}

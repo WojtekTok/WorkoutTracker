@@ -9,14 +9,15 @@
   --color-primary: #ff7e14;
   --color-primary-hover: #ff6817;
   --color-background: #585656;
-  --color-surface: #434141;
+  --color-surface: #232323;
   --color-text: #f0f0f0;
-  --color-muted: #6b7280;
+  --color-app-background: #434141;
 
   --font-main: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 
   --radius-sm: 6px;
   --radius-md: 12px;
+  --radius-lg: 24px;
 
   --space-sm: 8px;
   --space-md: 16px;
@@ -32,4 +33,11 @@ body {
   font-family: var(--font-main);
   background-color: var(--color-background);
   color: var(--color-text);
+  height: 100%;
+}
+
+@media (max-width: 550px) {
+  body {
+    background-color: var(--color-app-background);
+  }
 }

@@ -1,0 +1,10 @@
+.button {
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-text);
+  border-radius: var(--radius-md);
+}
+
+.button:hover {
+  background-color: var(--color-primary-hover);
+}

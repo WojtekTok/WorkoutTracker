@@ -1,14 +1,13 @@
 import Navbar from '../components/Navbar/Navbar'
-import MainPage from '../pages/MainPage/MainPage'
+import HomePage from '../pages/HomePage/HomePage'
 import styles from './App.module.css'
 
 function App() {
   return (
      <>
       <Navbar />
-      
       <main className={styles.page}>
-        <MainPage />
+        <HomePage />
       </main>
     </>
   )
