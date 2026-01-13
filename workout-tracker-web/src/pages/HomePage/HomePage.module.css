@@ -1,24 +1,41 @@
 .main {
-  padding: 24px;
+  padding: 16px;
 }
 
 .firstRow {
   display: flex;
-  gap: 24px;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.firstRow > * {
-  aspect-ratio: 1 / 1;
-  flex-grow: 1;
+@media (max-width: 550px) {
+  .calendarWrapper > * {
+    transform: scale(0.6);
+    transform-origin: top left;
+    margin-bottom: -110px;
+    margin-right: -115px;
+  }
+
+  .startWorkoutButton {
+    padding: 25px;
+    font-size: 16px;
+    align-self: stretch;
+  }
 }
 
-.startWorkoutButton {
-  font-size: 20px;
-}
-
-.calendar {
-  background-color: white;
-  border-radius: var(--radius-md);
+@media (min-width: 550px) {
+  .calendarWrapper > * {
+    transform: scale(0.8);
+    transform-origin: top left;
+    margin-bottom: -55px;
+    margin-right: -40px;
+  }
+  .startWorkoutButton {
+    /* padding: 30px 65px 30px 65px; */
+    padding: 45px;
+    font-size: 16px;
+    align-self: center;
+  }
 }
 
 .textStatistics {

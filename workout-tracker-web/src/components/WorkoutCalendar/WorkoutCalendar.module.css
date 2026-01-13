@@ -1,0 +1,9 @@
+.wrapper :global(.react-calendar) {
+  background: transparent;
+  color: white;
+  border-radius: var(--radius-md);
+}
+
+.wrapper :global(.react-calendar__tile) {
+  border-radius: var(--radius-md);
+}
